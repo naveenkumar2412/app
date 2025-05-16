@@ -1,9 +1,9 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:ap-south-1:891612559473:task-definition/demo-task:1",
+    "taskDefinitionArn": "arn:aws:ecs:ap-south-1:891612559473:task-definition/demo-task:2",
     "containerDefinitions": [
         {
             "name": "demo-container",
-            "image": "891612559473.dkr.ecr.us-east-1.amazonaws.com/demo-ecr:latest",
+            "image": "891612559473.dkr.ecr.ap-south-1.amazonaws.com/demo-ecr2:latest",
             "cpu": 0,
             "portMappings": [
                 {
@@ -38,7 +38,7 @@
     "family": "demo-task",
     "executionRoleArn": "arn:aws:iam::891612559473:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 1,
+    "revision": 2,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -84,7 +84,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2025-05-16T08:38:16.075Z",
+    "registeredAt": "2025-05-16T09:24:45.220Z",
     "registeredBy": "arn:aws:iam::891612559473:root",
     "enableFaultInjection": false,
     "tags": []

@@ -6,9 +6,9 @@ on:
 
 env:
   AWS_REGION: ap-south-1                  # Preferred AWS region
-  ECR_REPOSITORY: demo-ecr # Amazon ECR repository name
-  ECS_SERVICE: demo-task-service-tmtcti46         # Amazon ECS service name
-  ECS_CLUSTER: demo-cluster          # Amazon ECS cluster name
+  ECR_REPOSITORY: demo-ecr1 # Amazon ECR repository name
+  ECS_SERVICE: demo-task-service         # Amazon ECS service name
+  ECS_CLUSTER: demo-cluster1          # Amazon ECS cluster name
   ECS_TASK_DEFINITION: task.def-json # Path to task definition file
   CONTAINER_NAME: demo-container           # Container name in task definition
 
